@@ -17,3 +17,9 @@ install:
 
 config:
   strict: false
+  actions:
+    system.performance:
+      simpleConfigUpdate:
+        cache.page.max_age: 900
+        css.preprocess: true
+        js.preprocess: true
