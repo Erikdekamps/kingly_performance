@@ -1,0 +1,22 @@
+name: 'Kingly performance'
+type: 'Site'
+description: 'Configures Kingly performance modules.'
+recipes:
+  - core/recipes/core_recommended_performance
+
+install:
+  - advagg
+  - cdn
+  - core
+  - fast_404
+  - http_cache_control
+  - imageapi_optimize
+  - minifyhtml
+  - purge
+  - quicklink
+  - ultimate_cron
+  - warmer
+  - webp
+
+config:
+  strict: false

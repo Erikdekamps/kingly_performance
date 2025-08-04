@@ -1,0 +1,24 @@
+{
+  "name": "erikdekamps/kingly_performance",
+  "description": "A Drupal recipe that configures Kingly performance.",
+  "keywords": [
+    "drupal",
+    "recipe",
+    "performance"
+  ],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/cdn": "^4.1",
+    "drupal/core": "^10.3 || ^11",
+    "drupal/fast_404":  "^3.4",
+    "drupal/http_cache_control":  "^2.6",
+    "drupal/imageapi_optimize":  "^4.0",
+    "drupal/minifyhtml": "^2.0",
+    "drupal/purge": "^3.6",
+    "drupal/quicklink":  "^2.0",
+    "drupal/ultimate_cron": "^2.0@beta",
+    "drupal/warmer":  "^2.0",
+    "drupal/webp": "^1.0@RC"
+  }
+}
